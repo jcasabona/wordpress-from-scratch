@@ -1,0 +1,10 @@
+/**ADMIN STYLES**/
+
+.business_manager_extras div{
+margin: 10px;
+}
+
+.business_manager_extras div label{
+width: 100px;
+float: left;
+}

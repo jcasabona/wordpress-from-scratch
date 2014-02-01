@@ -1,0 +1,337 @@
+/**The Crux of the Matter!**/
+
+
+/**General XHTML Markup (body first, then alpha order)**/
+body{
+font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+background: url('img/bg.jpg');
+text-align: center;
+color: #FFFFFF;
+font-size: 62.5%;
+margin-top: 10px;
+}
+
+a{ 
+font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+font-weight: bold;
+color: #c94623;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+a:hover{ 
+color: #f76d36;
+}
+
+a img { border: none; }
+
+address{
+font-weight: bold; 
+}
+
+blockquote{
+font-weight: bold;
+font-style: italic;
+margin-left: 30px;
+line-height: 1.25em;
+}
+
+code{ 
+font-family: Courier, monospace;
+}
+
+dt{
+margin-left: 15px;
+font-weight: bold;
+}
+
+dd{
+margin: 15px 0 15px 30px;
+}
+
+em{ font-style: italic; }
+
+form{
+text-align: left;
+}
+
+h1,h2,h3,h4,h5,h6{
+font-weight: bold;
+margin: 15px;
+}
+
+.hide { display: none; }
+
+p{ line-height: 1.25em; margin: 15px; font-size: 1em;}
+
+strong{ font-weight: bold; }
+
+ul li, ol li{
+margin: 15px 0 0 30px;
+}
+
+
+/**LAYOUT STUFF (order of appearance)**/
+
+#wrap{
+background: #FFFFFF;
+color: #333333;
+font-size: 1.4em;
+}
+
+
+#container{
+margin: 0 auto;
+text-align: left;
+width: 70%; /* Target: 940px; */
+padding: 10px 0;
+}
+
+
+
+/****** Header Information ****/
+header{
+text-align: left;
+}
+
+
+header h1{
+float: left; 
+padding: 0;
+margin: 0;
+}
+
+header nav{
+font-size: 0.9em; /* ~11pt */
+margin: 10px 0 0 0.03em; /* 33px */
+float: left;
+}
+
+header nav ul li{
+display: inline;
+}
+
+header .searchbar{
+float: right;
+padding-top: 15px;
+}
+
+header .searchbar input{
+background: #3e3e3e;
+color: #FFFFFF;
+font-style: italic;
+font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+padding: 5px;
+border: 0;
+margin: 0;
+display: inline;
+}
+
+header .searchbar input[type="text"]{
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+
+header .searchbar input[type="submit"]{
+background:  #f76d36 url('img/search.jpg') center no-repeat;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+text-indent: -99999px;
+width: 33px;
+margin-left: -10px;
+}
+
+#featured{
+padding-bottom: 32px;
+}
+
+hr{
+background:url('img/bg.jpg') top center;
+height: 5px;
+border: none;
+display: block;
+}
+
+#featured .business-info h3, .widget h3, #business-listing .info h3{
+margin: 0; padding: 0;
+font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+font-weight: bold;
+font-size: 0.9em;
+text-transform: uppercase;
+}
+
+#featured .business-info h2{
+margin: 0; padding: 0;
+color: #c94623;
+font-size: 1.29em;
+}
+
+#featured .business-info p, .widget p{
+padding: 0;
+margin: 0 0 30px 0;
+}
+
+#featured .main{
+width: 66%;
+height: 270px;
+overflow: hidden;
+background: #CFCFCF;
+}
+
+#posts, .widget, #blog .post{
+border-top: 4px #d4d4d4 double;	
+}
+
+#posts a.visit{
+border-top: 1px #d4d4d4 solid;
+border-bottom: 1px #d4d4d4 solid;
+padding: 13px 5px;
+display: block;
+}
+
+.post{
+margin: 15px 0 30px 0;
+}
+
+
+.post h2, .business h2{
+margin: 0; padding: 0;
+
+}
+
+.post h3{
+margin: 0; padding: 0;
+font-size: 1.29em;
+}
+
+
+.post .byline{
+font-style: italic;
+font-size: 0.9em;
+color: #989898;
+}
+
+.post .byline a{
+font-style: normal;
+}
+
+.post p, .business p{
+margin: 10px 0 0 0;
+padding: 0;
+}
+
+#blog .post{
+margin-top: 0;
+padding-top: 15px;
+}
+
+
+#business-listing{
+padding-top: 30px;
+}
+
+#business-listing .main p{
+margin: 15px 0;
+}
+
+#business-listing .info p{
+padding: 0;
+margin: 30px 0;
+}
+
+#business-listing .info a{
+font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+text-transform: none;
+}
+
+.navi{
+font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+text-transform: uppercase;
+font-weight: bold;
+margin-top: 15px;
+}
+
+#directory .business{
+padding: 30px 0;
+border-bottom: 1px solid #d4d4d4;
+}
+
+#directory .business .info{
+width: 61%;
+margin-left: 3%;
+float: right;
+}
+
+#directory .business img{
+width: 35%;
+display: block;
+}
+
+#directory .business .contact{
+margin: 30px 0 15px 0;
+}
+
+
+.navi ul.pages{
+margin: 0; padding: 0;
+}
+
+.navi ul.pages li{
+display: inline;
+margin: 5px;
+}
+
+.widget{
+padding-top: 15px;
+}
+
+
+footer{
+color: #FFFFFF;
+font-size: 1.4em;
+text-align: left;
+width: 80%;
+margin: 0 auto;
+}
+
+footer a{
+color: #FFFFFF;
+}
+
+footer a:hover{
+color: #CFCFCF;
+}
+
+/**GENERAL CLASSES (alpha order)**/
+
+.left-col{
+width: 66%;
+float: left;
+}
+
+.right-col{
+float: right;
+width: 32%;
+margin-left: 2%;
+}
+
+
+
+.left{
+float: left;
+}
+
+.right{
+float: right;
+}
+
+
+/* self-clear floats */
+
+.group:after {
+	content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
